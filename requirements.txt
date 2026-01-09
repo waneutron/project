@@ -1,0 +1,14 @@
+# PySide2 - Qt 5 for Python (32-bit compatible)
+# IMPORTANT: PySide6/PyQt6 tidak support 32-bit Windows
+# Gunakan PySide2 untuk 32-bit compatibility
+# Pastikan install Python 32-bit untuk build 32-bit executable
+PySide2>=5.15.0
+
+# Existing dependencies (pastikan semua 32-bit compatible)
+python-docx>=0.8.11
+Pillow>=9.0.0
+hijri-converter>=2.2.0
+
+# Optional but recommended
+openpyxl>=3.0.0
+
